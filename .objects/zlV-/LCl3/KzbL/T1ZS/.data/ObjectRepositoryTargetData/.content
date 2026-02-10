@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lnDSXXx4zU2rQZSoRWnzmQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="tentabs.in" CVScreenId="be3392f1-8f9b-4328-beb9-020ab3f4a77b" CvElementArea="1288, 174, 301, 48" CvType="InputBox" DesignTimeRectangle="1288, 176, 300, 46" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='RegisterForm-FirstName' tag='INPUT' type='text' class='t4s_frm_input' placeholder='First Name' aaname='                           First Name                         ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="f63c0066-73ed-4e10-b51d-3b3660ce9e69" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="be3392f1-8f9b-4328-beb9-020ab3f4a77b" CvElementArea="1288, 174, 301, 48" CvType="InputBox" DesignTimeRectangle="1302, 176, 74, 46" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='customer_createlogin-sidebar' tag='LABEL' type='' class='' aaname='                           First Name                         ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='First Name' /&gt;" Guid="abd226fb-c989-41f0-8e2d-5b6a843e4537" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4e8ff61dd24511de287ea4a08c765a9f.png" xmlns="">0xV2v3hQgvU-ik70-OTBvlg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

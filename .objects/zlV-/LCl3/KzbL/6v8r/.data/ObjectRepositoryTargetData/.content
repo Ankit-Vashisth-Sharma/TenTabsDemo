@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YVaNs8XbWUyEP3tRaEKvrQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="tentabs.in" CVScreenId="5f65aa37-023e-42ed-963a-fa2d543f4503" CvTextArea="1287, 421, 259, 13" CvTextArgument="New customer? Create your account" CvType="Text" DesignTimeRectangle="1288, 418, 257, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' New customer? Create your account' parentid='customer_loginlogin-sidebar' tag='A' /&gt;" Guid="dc14ed87-7f51-4721-bb30-046847c67bd6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="baf52dcb0b81b5f26209a29cf1684e91.png" xmlns="">0oyxEUrw4wUGfNwiEbLZmVg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

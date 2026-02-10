@@ -1,0 +1,229 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>GlobalVariablesT1PNoYwrqg</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="933,2641" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Best Medical Supplies Online  Medical" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,2618" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="b86223b7-a3a9-4976-a122-7e258b54143f" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,2424" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="FirstName" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Label'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b86223b7-a3a9-4976-a122-7e258b54143f" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in" CVScreenId="8d5720e3-4883-4c86-a61d-acbb8c4e1194" ContentHash="JdLGmSkgnEa6M2UfiaRqog" CvElementArea="1468, 121, 29, 29" CvType="Icon" DesignTimeRectangle="1470, 124, 24, 24" ElementType="Icon" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' type='' parentid='shopify-section-header-inline' tag='svg' class='t4s-icon t4s-icon--account' aaname='' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="a06b1dd3-2de6-439f-ac59-f558cf099ee9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE/SURBVEhLY/hPZ8CALkBrMGohBli67cj//K6FYAxikwqItvDGg2f/TaOr/0u7Zv2Pr50GxiA2SAwkRywg2kKQwSBLfv/5AxcDsUFiIDliAVEWgoIO5Btky2AAJAaSIzZ4ibIQFF8gn+ACIDmQGmLA4LSQ7kEKAnRNNCBA92wBA3TL+NQCg8vCf//+/d994tL/CUu3/2+csQYvBqnZc+IyWA8+gNPCp6/e/bdLavyv4pv/P7N1LoYF6Di3Y/5/s5ia/06pzWC9uABWC0GuBFkWUzXl//efv9Cl8YL5Gw/8d0lvRReGA6wWbjl07r+CZy7JloEAyLGgUNl57CK6FBhgtbBu2qr/ISX96MJEg+Divv9Ns9aiC4MBVgvTm2f/z2iZgy5MNMCnf3BYCEre+05dQRcmGuDTj9VCWoJRC6kOAGvkqtdx28UJAAAAAElFTkSuQmCC" InformativeScreenshot="16951866a2b968e2ff47f2aa1e0f7f07.png" Reference="8EfsZ9wQVUuuX21hlYAuGQ/BbcHNhcNz0u4QZKwq7hw2Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="8d5720e3-4883-4c86-a61d-acbb8c4e1194" CvElementArea="1508, 117, 35, 31" CvType="Icon" DesignTimeRectangle="1508, 123, 26, 26" ElementType="Text" Guid="edca4fb3-9f16-49da-8b3d-a08df04df2e7" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALgSURBVEhL7ZT9S1NhFMcHEWXBUoJ+K7B/YEyshEYva6IU0g8RmCk008oECUxCjSY2EewVG8ZkEIhpUBFSI4N8KxwE/WAJt5flaBFJjDYuu/Puzm3fOA9O7+7dXVN/7QuH8ZznPN8P59lzrg5rVDKZRDweR3FxMXQ6XVoYrXa4BhxorzCu5JUGuSqRSMDpdKogR4d8EEMcxsY98IVEcP3mtYNS3VgsFgWoGWMhH56WLq2tbszPu1G1HlAsFkNBQYEC5AIXGkOzfA0OLi0QGY1Oz6Ct9xGOX7oJW99jTL7n0vYJpLy2VYHezXpRdKoVJ1vuwvVsHK88H+B88hrlF7txqK4Ts94f+PjVjwO1NmzclKcGhT2wZ1rLIb8CIWw/WIeB52/k6WX1Do9im6kW+v1W3Bl8AbN56Y9eDjMeekPwdBaytbGPg/jJhUIlqPJKL+o7++UplajLByOT7OocDofq+gpb3PCFRYgsOLgqlvbkJtTNzOfv8lRGpV5dJBKB0SiblWyROvyHD2NDURUW4/F0Vw3RHEmShKmpKeTn56uNlbFyMInNe2vw83cw3VFD8q4mJiZgMBjU5plApD2n2zH8clqeyqrUMxcEAYFAAD09PTCZTMjbspWZ6/V6lJSUwGazpYMG3W+xq7wR4YgoT2cVXSHBqLNgMIgv33zYYaqGc2gEXq8Xc3Nz8Pv96jmi+bGc74IoxZRbmkpdIx8WcPhsByov32LQVPA8rwYRoPRCF4MtRCXltqYiYhRHztlR1tCFsBBhXdJjoV/2FVEeIEWlGMz111nkAqMaqi1r6IYYlViHysgIIhGMDpqsHVlh9H9SDdXGFrVHQxNEooMVTTeYUaYHQrl9NVdZTTYIKSuIRANMRmQoh/HCAsudaL6d05D/E0QiIzIkYwIEeYF94SkXTySU5RmVE4hEhmS8+1gTdpY1oqr1Xs4QUs4gEhlXtzlw5tp99pJWo1WB1qP/oDXrL3lg8E4UMnClAAAAAElFTkSuQmCC" SearchSteps="CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'New customer Create yo…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b86223b7-a3a9-4976-a122-7e258b54143f" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in" CVScreenId="5f65aa37-023e-42ed-963a-fa2d543f4503" ContentHash="YVaNs8XbWUyEP3tRaEKvrQ" CvTextArea="1287, 421, 259, 13" CvTextArgument="New customer? Create your account" CvType="Text" DesignTimeRectangle="1288, 418, 257, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' New customer? Create your account' parentid='customer_loginlogin-sidebar' tag='A' /&gt;" Guid="dc14ed87-7f51-4721-bb30-046847c67bd6" InformativeScreenshot="baf52dcb0b81b5f26209a29cf1684e91.png" Reference="8EfsZ9wQVUuuX21hlYAuGQ/6v8r171o50id-46PG65xsw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <Assign sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_1">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">[FirstName]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">["ABC"]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'First Name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="SameAsCard" ScopeIdentifier="b86223b7-a3a9-4976-a122-7e258b54143f" Text="ABC" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in" CVScreenId="be3392f1-8f9b-4328-beb9-020ab3f4a77b" ContentHash="lnDSXXx4zU2rQZSoRWnzmQ" CvElementArea="1288, 174, 301, 48" CvType="InputBox" DesignTimeRectangle="1288, 176, 300, 46" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='RegisterForm-FirstName' tag='INPUT' type='text' class='t4s_frm_input' placeholder='First Name' aaname='                           First Name                         ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="f63c0066-73ed-4e10-b51d-3b3660ce9e69" InformativeScreenshot="4e8ff61dd24511de287ea4a08c765a9f.png" Reference="8EfsZ9wQVUuuX21hlYAuGQ/T1ZSgMM3ukO02xuYfzvruw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="be3392f1-8f9b-4328-beb9-020ab3f4a77b" CvElementArea="1288, 174, 301, 48" CvType="InputBox" DesignTimeRectangle="1302, 176, 74, 46" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='customer_createlogin-sidebar' tag='LABEL' type='' class='' aaname='                           First Name                         ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='First Name' /&gt;" Guid="abd226fb-c989-41f0-8e2d-5b6a843e4537" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;First Name: &quot;+ FirstName]" />
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Last Name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_5" InteractionMode="SameAsCard" ScopeIdentifier="b86223b7-a3a9-4976-a122-7e258b54143f" Text="XYZ" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in" CVScreenId="be3392f1-8f9b-4328-beb9-020ab3f4a77b" ContentHash="QIMon4QC0EyzM8N5ibsvVg" CvElementArea="1287, 251, 301, 48" CvType="InputBox" DesignTimeRectangle="1288, 252, 300, 46" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='RegisterForm-LastName' tag='INPUT' type='text' class='t4s_frm_input' placeholder='Last Name' aaname='                        Last Name                      ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="ac28aacc-684f-43f5-810c-4dcb9597ea8a" InformativeScreenshot="90078e4158d6e0606c803a7b9c87a7d6.png" Reference="8EfsZ9wQVUuuX21hlYAuGQ/joRWAIteD0akG9I3c0i6LA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="be3392f1-8f9b-4328-beb9-020ab3f4a77b" CvElementArea="1287, 251, 301, 48" CvType="InputBox" DesignTimeRectangle="1302, 252, 74, 46" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                        Last Name                      ' parentid='customer_createlogin-sidebar' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Last Name' /&gt;" Guid="2b089a57-4a6c-47f3-9ea6-a78dceb5686c" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Email *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_6" InteractionMode="SameAsCard" ScopeIdentifier="b86223b7-a3a9-4976-a122-7e258b54143f" Text="abc@gmail.com" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in" CVScreenId="a0cd3206-7be1-4641-9474-d0acfb3ab2d5" ContentHash="e4q2Ry_Rl0yDNm2fUZX6JA" CvElementArea="1287, 327, 302, 48" CvType="InputBox" DesignTimeRectangle="1288, 328, 300, 46" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='RegisterForm-email' tag='INPUT' type='email' class='t4s_frm_input' placeholder='Email' aaname='                        Email *                      ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="6fc0e5ba-18bc-40bd-95ed-cbc7ab23b3ad" InformativeScreenshot="cb891b7c78ee19fdfbb14263a3c592a5.png" Reference="8EfsZ9wQVUuuX21hlYAuGQ/Qn4hFBZsA0COBvwxtc38aw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="a0cd3206-7be1-4641-9474-d0acfb3ab2d5" CvElementArea="1287, 327, 302, 48" CvType="InputBox" DesignTimeRectangle="1302, 328, 49, 46" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                        Email                       ' parentid='customer_createlogin-sidebar' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Email&amp;#xA;*' /&gt;" Guid="207838d7-1cb2-4a36-8c6c-40ef2a83ca65" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Password *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_7" InteractionMode="SameAsCard" ScopeIdentifier="b86223b7-a3a9-4976-a122-7e258b54143f" Text="Password@123" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in" CVScreenId="e0fb0ca7-134c-41c9-9485-7bc89c518361" ContentHash="XdL6iGj4l0e64p3fZtNn2g" CvElementArea="1287, 402, 302, 49" CvType="InputBox" DesignTimeRectangle="1288, 404, 300, 46" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='RegisterForm-password' tag='INPUT' type='password' class='t4s_frm_input' placeholder='Password' aaname='                        Password *                      ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="00aabe53-ce76-4db2-91fc-aaa0ad2b4b32" InformativeScreenshot="7b5ba0da27e29730cd57500270e61c39.png" Reference="8EfsZ9wQVUuuX21hlYAuGQ/OOVirS0no02RXmqJGhAlSA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="e0fb0ca7-134c-41c9-9485-7bc89c518361" CvElementArea="1287, 402, 302, 49" CvType="InputBox" DesignTimeRectangle="1302, 404, 78, 46" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                        Password                       ' parentid='customer_createlogin-sidebar' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Password&amp;#xA;*' /&gt;" Guid="11cdcb80-facd-4e66-a64a-ed8407c4beec" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Register'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b86223b7-a3a9-4976-a122-7e258b54143f" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in" CVScreenId="b8c49068-fe7d-4cc3-9de9-e7520648c776" ContentHash="Fo5PXkIJqk2Pei4ytNqfsQ" CvElementArea="1286, 478, 304, 44" CvTextArea="1407, 492, 61, 18" CvTextArgument="Register" CvType="Button" DesignTimeRectangle="1288, 480, 300, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='customer_createlogin-sidebar' tag='BUTTON' /&gt;" Guid="fa6b74ba-84a6-4edc-a5b6-cffd7e068d7b" InformativeScreenshot="dfab57f61f80f746e479112332b1cf62.png" Reference="8EfsZ9wQVUuuX21hlYAuGQ/7IETAfL9Vk2gaIQ-BWG1jg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;User Registered&quot;]" />
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Email *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,241" sap2010:WorkflowViewState.IdRef="NTypeInto_8" InteractionMode="SameAsCard" ScopeIdentifier="b86223b7-a3a9-4976-a122-7e258b54143f" Text="New" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="tentabs.in" CVScreenId="46b7af6d-f370-42a7-93ce-e9bc4f9aa396" ContentHash="p0mlc0SzC0G-wNfLwDoztw" CvElementArea="1288, 175, 300, 48" CvType="InputBox" DesignTimeRectangle="1288, 228, 300, 46" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='CustomerEmail' tag='INPUT' type='email' class='t4s_frm_input' placeholder='Email' aaname='                       Email *                     ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="10864335-43d3-4e68-a513-a874bbc8f307" InformativeScreenshot="82880eaf44466a04660f94e000fb1cf4.png" Reference="8EfsZ9wQVUuuX21hlYAuGQ/P9Pfa0QAVUKjcOr5dYqsIQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="46b7af6d-f370-42a7-93ce-e9bc4f9aa396" CvElementArea="1287, 251, 302, 48" CvType="InputBox" DesignTimeRectangle="1287, 303, 301, 48" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='customer_loginlogin-sidebar' tag='LABEL' type='' class='' aaname='                       Email                      ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Email&amp;#xA;*' /&gt;" Guid="70fd2121-72f2-43c6-98c2-4434dd9b29c0" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1616, 868" BrowserType="Chrome" ContentHash="0WMdHkqM5E2sZDAz2tkoGA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAaCAYAAADWm14/AAAABGdBTUEAALEQa0zv0AAAACBjSFJNAACHDwAAjA8AAP1SAACBQAAAfXkAAOmLAAA85QAAGcxzPIV3AAABAWlDQ1BpY2MAACjPY2BgXJGTnFvMJMDAkJtXUhTk7qQQERmlwH6HgZFBkoGZQZPBMjG5uMAxIMCHASf4dg2oGggu64LMYiANcKakFicD6Q9AHJ9cUFTCwMAIsounvKQAxI4AskWKgI4CsnNA7HQIuwHEToKwp4DVhAQ5A9k8QLZDOhI7CYkNtQsEWJONkjORHZJcWlQGZUoB8WnGk8zJrJM4srm/CdiLBkqbKH7UnGAkYT3JjTWwPPZtdkEVa+fGWTVrMvfXXj780uD//5LUihKQZmdnAwZQGKKHDUIsfxEDg8VXBgbmCQixpJkMDNtbGRgkbiHEVBYwMPC3MDBsOw8A8P1N272DB40AAAAJcEhZcwAACxEAAAsRAX9kX5EAAAQzSURBVEhLvVZLbxxFEK7dRYITscIhiQAT49hTNWuc7V7LCAlEwN7tHpuYV4SCEMohB8DZ7tmNgAsXxC0cwgkpB14nTjgEKTLIwu7xyXaQ8gs4cuYd4xA7g6pnLNvjRIqM7ZI+1czudPdXXf1VNaA2j6C2w6hNHbWtZ34z/G9DqExI2nYPvvg8kLKATVN+Q70Ol4dqMCew7ARBIglcDfucpPFE4oSTOJFIKoB/p5OJxFcSiUeAtPkQtUlR29Xcp3f0iv+3N1CZ66hMhE0Dh/S7pVlB5TmB4AQdcQK/TQTeSiSlTuIWJN7TFp9IfJkJPEPKpqTNKin7LylzK4PdCm3W+DtUJs392cNj70P6AMDsID7kBP2cLUy3ncCbTuDKnUHLnoDAZSfwYaDIAip7KYt0Mzj6DOSRLY7K3uR3fh5qvD144annYFbQp074iP5JBN1OBC9wF3Dk/K3AViIIgFQM/aOTgNq+Rsp8Rsp+Scp8gcp+Q8peYaCyl1GZGcpSwARXSJm0X8cfwZnvYFaGv3D0icC1fMunncSPncRPnMSLBXyQiGA4qSPMP+kJWOgdeYsJ5DDek/cZ+Dl/fxq1WSFl10Jl0p6o83XaC4fnsq1fzUjQ5xzZXSEREoEwX8fyTHAMgHTsgdpWMhjvSZsybkKo4zJFMaAyP3E6mMDRqDP1e3iwdwsBSaezRej+RFBlGyTelwgsz/RWYZuFykC1ab1HZX16UMVADQP4Uhvw1Q6QMtf4jKwT+DM8+HhOYC3P7WmOMBFYma33wzp+HOqDuXp/ccl7M2oaCF6IIRiPtxH4K+zqWSfgBKVO0CmuCU5gpTjPjq0ataBntAO9jTafhWuoNgjcoK6jBQITGQHaPQJB1IInRt6DgdHzfBCvcR3wBHRn6m868NgcLy5Zfl4B6CSCk1guzrNj69MtkI3zcLzZ2UKgR3emVsID3fkOsAK+cjIAJ4OSq4XFaXZuQbMFA+NtqI55FSxtVsEydfEO/OEEXVyoYSmp+QNYcjUqTrNz41oQqhhCbkLaLPnSrUwaaHsVLqVwZej4oXnWtmStY4lVwOdg14wLU9hsAakWPy/x4qwEUub7ZxtnIX0U4Ac5UOFumEuwOMX/MxprA468Azg6CaTtom9IWYec7h1rw5kTpyonT7xZHLZ7xpEHURuCyNeBRR89NyhlprmZUWTL1LDFYbtn1WYMx8YmoS86x71jMeuQPgX7Q4C0hUAZj40U7COBQLcgbLZLrATSZoEr4XoKkO8TnoApDts9YxVUm6YUNn2rXthQgZ3GyABGZq93wMCAMqUqd0lt59cJ4KYU4F7uAHGUyla4RaO2F/z1LD8D+UWmzHViTw2VKaG/J5huVObX/I54dV9SwOYPm7ZljjhQZhi1/Y2UnfHXtf0iwHIkJuHlGD9IygZ8nQt1DP2Nc8Uh92T/ASGOckIuWcLCAAAAAElFTkSuQmCC" InformativeScreenshot="b6939756ecacf2e24957979fd5a6ebcd.jpg" Reference="8EfsZ9wQVUuuX21hlYAuGQ/KzbLMuCse0ijJ1K_OpZeQg" Selector="&lt;html app='chrome.exe' htmlwindowname='{&amp;quot;collectionName&amp;quot;:&amp;quot;Hospital Furniture&amp;quot;,&amp;quot;collectionUrl&amp;quot;:&amp;quot;/collections/hospital-furniture&amp;quot;}' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" Url="https://tentabs.in/" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

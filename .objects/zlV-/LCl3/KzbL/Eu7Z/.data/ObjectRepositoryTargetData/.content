@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BIfVa3k0KEOFGEmqvyFrMw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="tentabs.in" CVScreenId="44d16a57-135f-4fea-a5f6-53b3e07db809" CvElementArea="1287, 408, 301, 43" CvTextArea="1412, 422, 50, 18" CvTextArgument="Sign In" CvType="Button" DesignTimeRectangle="1288, 410, 300, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='customer_loginlogin-sidebar' tag='BUTTON' /&gt;" Guid="28c97101-91a8-4d39-a137-ae03abf1d60b" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='{&amp;quot;collectionName&amp;quot;:&amp;quot;Hospital Furniture&amp;quot;,&amp;quot;collectionUrl&amp;quot;:&amp;quot;/collections/hospital-furniture&amp;quot;}' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4f6d23fda34ed1b9770ac42f793420d2.png" xmlns="">0jb-EoDofp0G4swbv9THhmw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

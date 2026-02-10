@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="n9pvo3nRHUCjem1u0w3Z5Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="tentabs.in" CVScreenId="44d16a57-135f-4fea-a5f6-53b3e07db809" CvElementArea="1287, 302, 301, 48" CvType="InputBox" DesignTimeRectangle="1288, 304, 300, 46" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='CustomerPassword' tag='INPUT' type='password' class='t4s_frm_input' placeholder='Password' aaname='                         Password *                       ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="a7760bc1-5e9d-4d4e-acd7-5b71d4176207" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='{&amp;quot;collectionName&amp;quot;:&amp;quot;Hospital Furniture&amp;quot;,&amp;quot;collectionUrl&amp;quot;:&amp;quot;/collections/hospital-furniture&amp;quot;}' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="44d16a57-135f-4fea-a5f6-53b3e07db809" CvElementArea="1287, 302, 301, 48" CvType="InputBox" DesignTimeRectangle="1302, 304, 78, 46" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                         Password                        ' parentid='customer_loginlogin-sidebar' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Password&amp;#xA;*' /&gt;" Guid="ccbc20fc-26e9-4a9a-8e2d-a1d7098193c3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="13c2713748b76047bdf2e0ee6147060d.png" xmlns="">0AuHFwJRVikqdZYdqAKbYrQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

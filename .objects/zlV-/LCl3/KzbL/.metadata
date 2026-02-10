@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Best Medical Supplies Online  Medical ",
+  "Type": "Screen",
+  "Id": "KzbLMuCse0ijJ1K_OpZeQg",
+  "Reference": "8EfsZ9wQVUuuX21hlYAuGQ/KzbLMuCse0ijJ1K_OpZeQg",
+  "ParentRef": "8EfsZ9wQVUuuX21hlYAuGQ/LCl34zA6a0abj1hSnXDnog",
+  "Created": "2026-02-09T12:22:11.2853701Z",
+  "Updated": "2026-02-09T12:22:11.2853701Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

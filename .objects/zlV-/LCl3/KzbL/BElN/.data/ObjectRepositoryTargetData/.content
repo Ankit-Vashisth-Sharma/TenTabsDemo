@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PudtdTTciUSe-zcFd4zJBQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="tentabs.in" CVScreenId="4f43fd8f-9cbb-4501-9c91-15b2b4b6c701" CvElementArea="1287, 174, 301, 48" CvType="InputBox" DesignTimeRectangle="1288, 228, 300, 46" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='CustomerEmail' tag='INPUT' type='email' class='t4s_frm_input' placeholder='Email' aaname='                       Email *                     ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="c0fe320b-c5c5-41ee-8c83-0c0fe84cf2d4" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='{&amp;quot;collectionName&amp;quot;:&amp;quot;Hospital Furniture&amp;quot;,&amp;quot;collectionUrl&amp;quot;:&amp;quot;/collections/hospital-furniture&amp;quot;}' title='Best Medical Supplies Online | Medical Accessories Online | Medical Equipments Online | Medical Supply Store | Medical Equipment Store - TenTabs' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4f43fd8f-9cbb-4501-9c91-15b2b4b6c701" CvElementArea="1287, 251, 302, 48" CvType="InputBox" DesignTimeRectangle="1287, 303, 301, 48" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='customer_loginlogin-sidebar' tag='LABEL' type='' class='' aaname='                       Email                      ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Email&amp;#xA;*' /&gt;" Guid="72be6068-049e-4e79-bf76-4c2ae10f3e43" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="764ea7351287e9e959d32c926ddbc56f.png" xmlns="">0Cspqi-d4z06zZQE-ZvwrnA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
